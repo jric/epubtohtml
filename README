@@ -1,0 +1,9 @@
+A simple PERL script to convert an epub 2 document to an HTML5 document.
+
+After fetching the file, make sure it's executable:
+
+chmod ug+x ./epubtohtml.pl
+
+then run it to find out how to use it:
+
+./epubtohtml --help
