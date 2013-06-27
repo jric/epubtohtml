@@ -7,3 +7,4 @@ chmod ug+x ./epubtohtml.pl
 then run it to find out how to use it:
 
 ./epubtohtml --help
+
