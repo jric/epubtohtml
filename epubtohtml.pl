@@ -63,7 +63,7 @@ if (!defined($outdirectory)) {
 if (!defined($base_fn)) { die "Unable to get base of the filename"; }
 
 # Unzip epub file
-my($UNZIP_CMD) = "unzip -d $outdirectory $inputfilename";
+my($UNZIP_CMD) = "unzip -d '$outdirectory' '$inputfilename'";
 
 system($UNZIP_CMD) && die("failed ($!): $UNZIP_CMD");
 

@@ -7,3 +7,31 @@ chmod ug+x ./epubtohtml.pl
 then run it to find out how to use it:
 
 ./epubtohtml --help
+
+Here is a sample session that I run from my Mac.  Hope it helps you:
+
+scml-jrichardson:pdf2html5 jric$ ~/dev/epubtohtml/epubtohtml.pl /Users/jric/dev/calibre/resources/quick_start.epub -o ~/tmp/quick_start
+Archive:  /Users/jric/dev/calibre/resources/quick_start.epub
+ extracting: /Users/jric/tmp/quick_start/mimetype  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/content.opf  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/toc.ncx  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Styles/stylesheet.css  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_004.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_005.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_001.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_003.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/titlepage.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_000.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_007.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_002.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_011.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_010.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_009.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_008.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_006.xhtml  
+  inflating: /Users/jric/tmp/quick_start/OEBPS/Images/cover.jpg  
+  inflating: /Users/jric/tmp/quick_start/META-INF/container.xml  
+epubtohtml.pl: WARN: No opf file to get meta-data; will not create index.
+open 'file://localhost/Users/jric/tmp/quick_start/OEBPS/Text/calibre_quick_start_split_001.xhtml'
+
+Now I see a table of contents in my browser.
